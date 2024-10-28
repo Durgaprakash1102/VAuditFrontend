@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.slider-item img {
+    width: 100px;
+    height: 80px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table tr:hover {
+  background-color: #ddd;
+}
+.css-1u0yil4-MuiList-root {
+  height: 100%;
+}
+
+.css-1086bdv-MuiPaper-root-MuiAccordion-root.Mui-expanded {
+  margin: 0;
+  background-color: rgb(37, 80, 123);
+}
+
+/* card Hover Effect */
+.list-unstyled.text-start {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.pricing-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.arrow-icon span {
+  display: inline-block;
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+.arrow-icon span::after {
+  content: '';
+  position: absolute;
+  opacity: 0;
+  right: -15px;
+  transition: all 0.2s ease;
+}
+
+.arrow-icon:hover span::after {
+  opacity: 1;
+  right: 0;
+}
+
+.best-tag {
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px 0 5px 0;
+}
+
+

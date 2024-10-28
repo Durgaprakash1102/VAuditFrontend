@@ -1,0 +1,431 @@
+
+.show {
+  display: block !important;
+}
+
+@media (max-width: 768px) {
+  .nav-toggle {
+    display: flex;
+  }
+
+  .nav ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    width: 100%;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .nav ul li {
+    margin: 10px;
+  }
+
+  .nav ul li a {
+    padding: 10px;
+  }
+
+  .nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
+}
+
+
+.quote-container {
+  padding: 20px;
+  margin-top:100px;
+}
+
+.navbar {
+  background-color:#0235c3; 
+  padding: 0.5rem 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #007bff; 
+}
+
+.navbar-brand:hover {
+  color: #0056b3;
+}
+
+.navbar-nav .nav-link {
+  font-size:20px;
+  font-weight: 500;
+  color: #343a40;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s, background-color 0.3s;
+  font-family: 'Roboto', sans-serif; 
+}
+
+#toggleicon {
+  background: #fff;
+}
+
+#toggleicon .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar-nav .dropdown-menu {
+  background-color: #f8f9fa;
+  border-radius: 0.25rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav .dropdown-item {
+  color: #343a40;
+}
+
+.navbar-nav .dropdown-item:hover {
+  color: #007bff;
+  background-color: #4aa3fc;
+}
+
+.navbar-nav .dropdown-divider {
+  border-top: 1px solid #e9ecef;
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 0.5rem 0;
+  }
+}
+
+
+
+
+.btn-custom {
+  position: relative;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  color:#fff;
+  font-weight: 700;
+  background-color: #b35400;
+  border: 2px solid #b35400;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+  margin-bottom: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.btn-custom:hover {
+  color: #b35400; /* Text color on hover */
+  background-color: #fff; /* Background color on hover */
+  border-color: #b35400; /* Border color on hover */
+  z-index: 1; /* Ensure the text stays on top */
+}
+
+/* Header.css */
+.custom-navbar {
+  background-color: #0235c3 !important; /* Use your desired background color */
+}
+
+.navbar-brand, .nav-link {
+  color: #ffffff !important; 
+  /* Ensure the text is readable on the dark background */
+}
+
+
+/* Custom button styles */
+.custom-button {
+ 
+  border: 1px solid  #ff6a00;;
+  background-color: #007bff;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  color: #fff;
+
+}
+
+.custom-button:hover {
+  background-color: #dee5ed; /* Darker blue color on hover */
+}
+
+
+.font-large {
+  font-size: 44px; /* Adjust the font size as needed */
+}
+
+.font-medium {
+  font-size: 18px; /* Adjust the font size as needed */
+}
+
+.btn-black {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn-black:hover {
+  background-color: #333;
+}
+
+.btn-lg {
+  font-size: 18px; /* Adjust the button font size as needed */
+}
+.seo-text {
+  font-family: 'Roboto', sans-serif; 
+    font-size: 20px; /* Adjust the font size as needed */
+  text-align: center; /* Center align the text */
+  line-height: 1.5; /* Adjust the line height as needed */
+  color: #efeded; /* Specify your desired text color */
+}
+
+.support-section{
+  background-color:#f36225;
+}
+
+.card-title{
+  color:#ff7700
+}
+
+/* Add this to your Header.css or the corresponding CSS file */
+.custom-card {
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.card-body {
+  text-align: center;
+}
+
+
+/* footer */
+        a,
+        a:active,
+        a:focus {
+            color: #333;
+            text-decoration: none;
+            transition-timing-function: ease-in-out;
+            -ms-transition-timing-function: ease-in-out;
+            -moz-transition-timing-function: ease-in-out;
+            -webkit-transition-timing-function: ease-in-out;
+            -o-transition-timing-function: ease-in-out;
+            transition-duration: .2s;
+            -ms-transition-duration: .2s;
+            -moz-transition-duration: .2s;
+            -webkit-transition-duration: .2s;
+            -o-transition-duration: .2s;
+        }
+        
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        img {
+    max-width: 100%;
+    height: auto;
+}
+        section {
+            padding: 60px 0;
+           /* min-height: 100vh;*/
+        }
+.footer {
+    background: linear-gradient(105deg,#6e99e6 ,#093c94);
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+/*END FOOTER SOCIAL DESIGN*/
+.single_footer{}
+@media only screen and (max-width:768px) { 
+.single_footer{margin-bottom:30px;}
+}
+.single_footer h4 {
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.single_footer h4::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 40px;
+    margin-top: 20px;
+}
+.single_footer p{color:#fff;}
+.single_footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.single_footer ul li{}
+.single_footer ul li a {
+    color: #fff;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    line-height: 36px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.single_footer ul li a:hover { color: #ff3666; }
+
+.single_footer_address{}
+.single_footer_address ul{}
+.single_footer_address ul li{color:#fff;}
+.single_footer_address ul li span {
+    font-weight: 400;
+    color: #fff;
+    line-height: 28px;
+}
+.contact_social ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+/*START NEWSLETTER CSS*/
+.subscribe {
+    display: block;
+    position: relative;
+    margin-top: 15px;
+    width: 100%;
+}
+.subscribe__input {
+background-color: #fff;
+border: medium none;
+border-radius: 5px;
+color: #333;
+display: block;
+font-size: 15px;
+font-weight: 500;
+height: 60px;
+letter-spacing: 0.4px;
+margin: 0;
+padding: 0 150px 0 20px;
+text-align: center;
+text-transform: capitalize;
+width: 100%;
+}
+@media only screen and (max-width:768px) { 
+.subscribe__input{padding: 0 50px 0 20px;}
+}
+
+.subscribe__btn {
+background-color: transparent;
+border-radius: 0 25px 25px 0;
+color: #01c7e9;
+cursor: pointer;
+display: block;
+font-size: 20px;
+height: 60px;
+position: absolute;
+right: 0;
+top: 0;
+width: 60px;
+}
+.subscribe__btn i{transition: all 0.3s ease 0s;}
+@media only screen and (max-width:768px) { 
+.subscribe__btn{right:0px;}
+}
+
+.subscribe__btn:hover i{
+    color:#ff3666;
+}
+button {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+/*END NEWSLETTER CSS*/
+
+/*START SOCIAL PROFILE CSS*/
+.social_profile {margin-top:40px;}
+.social_profile ul{
+list-style: outside none none;
+margin: 0;
+padding: 0;
+}
+.social_profile ul li{float:left;}
+.social_profile ul li a {
+    text-align: center;
+    border: 0px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    margin: 0px 5px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+@media only screen and (max-width:768px) { 
+.social_profile ul li a{margin-right:10px;margin-bottom:10px;}
+}
+@media only screen and (max-width:480px) { 
+.social_profile ul li a{
+    width:40px;
+    height:40px;
+    line-height:40px;
+}
+}
+.social_profile ul li a:hover{
+background:#ff3666;
+border: 1px solid #ff3666;
+color:#fff;
+border:0px;
+}
+/*END SOCIAL PROFILE CSS*/
+.copyright {
+    margin-top: 70px;
+    padding-top: 40px;
+    color:#fff;
+    font-size: 15px;
+    border-top: 1px solid rgba(255,255,255,0.4);
+    text-align: center;
+}
+.copyright a{color:#01c7e9;transition: all 0.2s ease 0s;}
+.copyright a:hover{color:#ff3666;}
+
+.list-group-item:hover {
+  background-color: #fcb264;
+  color:#fff;
+  font-size: 20px;
+}
+
+.single_footer ul li a{
+  text-decoration: none;
+}
+
+.auth-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 6px;
+}
+
+.auth-buttons .btnpink {
+  background: rgb(255, 0, 102);
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 10px;
+  font-weight: 600;
+}

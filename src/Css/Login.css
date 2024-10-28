@@ -1,0 +1,75 @@
+.forgatebtn {
+    color: blue;
+    border-bottom: 1px solid blue;
+}
+.forgatebtn:hover {
+    background: none;
+    cursor: pointer;
+    color: rgba(0, 0, 255, 0.429);
+}
+
+/* Login.css */
+.container-fluid {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .login-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .login-image {
+    display: none;
+  }
+  
+  @media (min-width: 768px) {
+    .login-wrapper {
+      flex-direction: row;
+    }
+  
+    .login-image {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 50%;
+    }
+  }
+  
+  .form-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .form-control,
+  .btn {
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .forgatebtn {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .forgatebtn:hover {
+    text-decoration: underline;
+  }
+  
+  @media (min-width: 992px) {
+    .login-image img {
+      max-width: 80%;
+    }
+  }
+  
